@@ -75,6 +75,16 @@ html {
   color: #551a8b;
 }
 
+.quote{
+  width: 20%;
+  color: green;
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  top: 150px;
+  font-size: 1.1rem;
+  text-align: justify;
+}
 .banner {
   height: 100vh;
   text-align: center;

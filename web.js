@@ -2,6 +2,26 @@
 let toggle = document.querySelector(".bar");
 let navLink = document.querySelector(".nav-link");
 let link = document.querySelector(".link");
+let quote = document.querySelector('.quote');
+
+
+// quote
+async function getQuote(){
+  let data = await fetch('https://api.quotable.io/random')
+  let response = await data.json()
+ 
+  displayQuote(`${response.content}    ~ ${response.author}`);
+  setTimeout(getQuote, 8000)
+}
+getQuote()
+
+// quote function
+function displayQuote(quotes){
+  quote.textContent = quotes;
+}
+
+
+
 
 toggle.addEventListener("click", function () {
   let navHeight = navLink.getBoundingClientRect().height;
@@ -83,6 +103,7 @@ function displayTime() {
 
 
   setTimeout(displayTime, 1000);
+  
 
   function greetings() {
     let today = new Date();
