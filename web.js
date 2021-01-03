@@ -21,8 +21,7 @@ function displayQuote(quotes){
 }
 
 
-
-
+// nav
 toggle.addEventListener("click", function () {
   let navHeight = navLink.getBoundingClientRect().height;
   let linkHeight = link.getBoundingClientRect().height;
@@ -93,11 +92,10 @@ function displayTime() {
   // };
 
   // to get weeks
-  let weeks = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SAT'];
+  let weeks = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
   let months = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
-
-  console.log(months)
-
+  
+ 
   time.innerHTML = `${hour}<span>:</span>${minPad}<span>:</span>${sec} ${hrs}`;
   date.innerHTML = `${weeks[ww]}, ${months[mm]} ${dd}, ${yy}`
 
@@ -282,7 +280,7 @@ let items = project
   <div class="proj">
   <p>${item.name}</p>
   <a href=${item.website} target=${item.target}>${item.eye}</a>
-  <a href=${item.gitHub} target=${item.target}> ${item.git}</a> <br>
+  <a href=${item.gitHub}  target=${item.target}> ${item.git} </a><br>
   <span>${item.html} </span>
   <span>${item.css} </span>
   <span>${item.javascript}</span>
