@@ -234,7 +234,7 @@ section {
 	color: gold;
 	font-size: 2.2rem;
 	text-align: center;
-	margin-top: 55px;
+	margin-top: 70px;
 }
 
 .contact p {
@@ -251,7 +251,7 @@ section {
 }
 
 label {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	color: gold;
 	background-color: black;
 	margin-left: 20px;
@@ -277,12 +277,12 @@ input[type='submit'] {
 .address {
 	color: gold;
 	font-weight: bold;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	box-shadow: var(--primary-shadow);
 	width: 90%;
 	margin-left: 20px;
 	line-height: 1;
-	margin-top: 30px;
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -328,27 +328,28 @@ input[type='submit'] {
 	background-image: url('./images/computer.jpg');
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
-	position: relative;
+  background-repeat: no-repeat;
+  position: relative;
+	
 }
 
 #resume h3 {
 	color: #fff;
 	box-shadow: var(--primary-shadow);
 	font-size: 2.5rem;
-	text-align: center;
+	margin-left: 20px;
 	text-transform: uppercase;
 	font-weight: bolder;
-	margin-top: 50px;
+	margin-top: 55px;
 }
 
 .download {
-	position: absolute;
-	bottom: 10px;
-	left: 30px;
-	text-align: center;
-	color: #fff;
-	font-size: 2rem;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  text-align: center;
+  color: #fff;
+	font-size: 1.5rem;
 }
 .fa-download {
 	color: brown;
@@ -382,7 +383,7 @@ input[type='submit'] {
 .projects {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	column-gap: 15px;
+	column-gap: 25px;
 	margin-top: 5px;
 	width: 90%;
 }
