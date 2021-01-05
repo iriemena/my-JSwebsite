@@ -440,19 +440,21 @@ footer {
 
 @media screen and (max-width: 300px){
 	.time{
-		font-size: 2.7rem;
+		font-size: 2.5rem;
+		margin: 10px 10px
 	}
 	.date{
 		font-size: 1.1rem;
 	}
 	.greeting{
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 	}
 	.welcome{
 		font-size: 1.3rem;
 	}
 	.quote{
 		margin-right: 25px;
+		font-size: 0.7rem;
 	}
 	.explore{
 		padding: 7px;
