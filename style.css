@@ -52,7 +52,6 @@ html {
 	box-shadow: var(--primary-shadow);
 }
 
-
 .link a {
 	text-decoration: none;
 	font-size: 1.3rem;
@@ -146,7 +145,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	box-shadow: var(--primary-shadow);
-
 }
 
 /* about */
@@ -419,25 +417,25 @@ footer {
 	font-family: cursive;
 }
 
-@media screen and (max-width: 400px){
-	.time{
+@media screen and (max-width: 400px) {
+	.time {
 		font-size: 2.5rem;
-		margin: 10px 10px
+		margin: 10px 10px;
 	}
-	.date{
+	.date {
 		font-size: 1.1rem;
 	}
-	.greeting{
+	.greeting {
 		font-size: 1.5rem;
 	}
-	.welcome{
+	.welcome {
 		font-size: 1.3rem;
 	}
-	.quote{
+	.quote {
 		margin-right: 25px;
 		font-size: 0.6rem;
 	}
-	.explore{
+	.explore {
 		padding: 10px;
 		font-size: 1.1rem;
 	}
@@ -453,35 +451,32 @@ footer {
 		font-size: 2rem;
 	}
 
-	.contact p{
+	.contact p {
 		font-size: 1.3rem;
 	}
-	.contact h3{
+	.contact h3 {
 		font-size: 1.9rem;
 	}
-
 
 	label {
 		font-size: 1rem;
 		background-color: unset;
 		color: rgb(5, 0, 0);
-		
 	}
 
 	input[type='text'],
 	textarea {
 		padding: 2px;
 		width: 85vw;
-		
 	}
-	
+
 	input[type='submit'] {
 		padding: 2.5px;
 		font-size: 0.8rem;
 		width: 40%;
 	}
-	
-	.address{
+
+	.address {
 		width: 85vw;
 	}
 	.address h4 {
@@ -513,16 +508,13 @@ footer {
 		width: 100%;
 		height: 80%;
 		margin-top: 10px;
-		
 	}
 
-	.download  {
+	.download {
 		color: #fff;
 		font-size: 1.2rem;
 		font-weight: bolder;
 		position: unset;
-		
-
 	}
 
 	#resume h3 {
@@ -533,9 +525,8 @@ footer {
 
 	/* projects */
 
-	#projects{
-	height: 120vh;
-
+	#projects {
+		height: 120vh;
 	}
 	.projects {
 		display: grid;
@@ -566,20 +557,19 @@ footer {
 		margin: 5px 5px;
 		font-size: 1rem;
 	}
-	footer{
+	footer {
 		font-size: 1rem;
 	}
-
 }
 
-@media screen and (min-width: 500px){
-	.quote{
+@media screen and (min-width: 500px) {
+	.quote {
 		font-size: 1.1rem;
 	}
-	.banner{
+	.banner {
 		line-height: 1.1;
 	}
-	.time{
+	.time {
 		font-size: 6rem;
 	}
 
@@ -598,7 +588,7 @@ footer {
 		font-size: 1.1rem;
 		margin-top: 40px;
 	}
-	.greeting{
+	.greeting {
 		font-size: 4.5rem;
 	}
 
@@ -688,7 +678,6 @@ footer {
 		display: block;
 		margin-left: 20px;
 	}
-
 
 	textarea {
 		padding: 40px;
@@ -815,7 +804,6 @@ footer {
 		font-size: 2rem;
 	}
 }
-
 
 /* bigger screen  */
 @media screen and (min-width: 1200px) {
@@ -1086,4 +1074,3 @@ footer {
 		font-size: 2rem;
 	}
 }
-
