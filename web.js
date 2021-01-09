@@ -299,3 +299,6 @@ projects.innerHTML = items;
 // copyright
 let copy = document.querySelector('.copy');
 copy.innerHTML = new Date().getFullYear();
+
+
+
