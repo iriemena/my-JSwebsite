@@ -380,8 +380,12 @@ input[type='submit'] {
 }
 .proj > .fa-eye,
 .fa-github {
-	font-size: 1.5rem;
 	margin-left: 30px;
+}
+
+.proj a i {
+	font-size: 1.8rem;
+	
 }
 .proj > .fa-eye,
 .fa-github:hover {
@@ -502,6 +506,10 @@ footer {
 		justify-content: space-around;
 	}
 
+	
+	.proj a i:hover {
+		color: green;
+	}
 	.social i:hover {
 		color: greenyellow;
 	}
@@ -545,7 +553,7 @@ footer {
 
 	.proj {
 		font-size: 1.5rem;
-		margin: 10px 10px;
+		
 	}
 
 	#projects h3 {
