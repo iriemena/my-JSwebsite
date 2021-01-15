@@ -421,7 +421,7 @@ footer {
 	font-family: cursive;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 580px) {
 	.time {
 		font-size: 2.5rem;
 		margin: 10px 10px;
