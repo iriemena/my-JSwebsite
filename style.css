@@ -366,6 +366,7 @@ input[type='submit'] {
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	column-gap: 30px;
 	width: 95vw;
+	overflow:auto;
 }
 .proj {
 	background-color: cadetblue;
