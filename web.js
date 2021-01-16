@@ -278,6 +278,8 @@ let project = [
 		javascript: '<i class="fab fa-js"></i>',
 		target: '_blank',
 	},
+
+	
 ];
 
 // Rendering of the projects to the DOM

@@ -351,7 +351,7 @@ input[type='submit'] {
 	background-image: url('./images/computer1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
-	height: 130vh;
+	height:100vh;
 	
 }
 
@@ -374,9 +374,8 @@ input[type='submit'] {
 	font-size: 1.3rem;
 	margin: 35px 20px 0;
 	text-align: center;
-	
-	
 }
+
 .proj p {
 	color: red;
 	margin: 5px 5px;
