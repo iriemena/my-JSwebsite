@@ -314,6 +314,10 @@ input[type='submit'] {
 	position: relative;
 }
 
+#resume img{
+margin-left: auto;
+margin-right: auto;
+}
 #resume h3 {
 	color: #fff;
 	box-shadow: var(--primary-shadow);
@@ -754,29 +758,29 @@ footer {
 		display: none;
 	}
 	#resume {
-		background-image: url('./images/resume.jpg'), url('./images/computer.jpg');
-		background-size: 93%, cover;
+		background-image: url('./images/resume.png'), url('./images/computer.jpg');
+		background-size: 75%, cover;
 		background-position: bottom, right;
 		background-repeat: no-repeat;
 		position: relative;
 	}
 	#resume h3 {
 		color: gold;
-		font-size: 2.5rem;
+		font-size: 2rem;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: bolder;
 		box-shadow: none;
-		margin-top: 50px;
+		margin-top: 15px;
 	}
 
 	.download {
 		position: absolute;
-		right: 150px;
-		top: 600px;
+		right: 170px;
+		top: 550px;
 		text-align: center;
 		color: brown;
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.top-arrow {
